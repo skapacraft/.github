@@ -29,8 +29,10 @@ regardless of platform:
    it's a constraint from the first line of code.
 2. **No bloat.** Every feature needs a reason. If it doesn't pull its weight, it
    doesn't ship.
-3. **Transparent by design.** You know what the code does because you can read
-   it. Privacy defaults aren't negotiable.
+3. **Transparent by design.** You know what a tool does before you install it.
+   Where the source is public you can read it rather than take our word for it;
+   where it isn't, its page says what it does with your data instead. Privacy
+   defaults aren't negotiable.
 4. **Native, not wrapped.** Built for the platform, not ported from the web or
    buried inside a framework.
 
@@ -56,8 +58,12 @@ regardless of platform:
 | **[Ultra-Trail Dashboard](https://github.com/skapacraft/ultra-trail-dashboard)** | Data field for trail and ultra running: smoothed grade, Grade Adjusted Pace from the Minetti energy-cost model, and three physiological models that say how long you have left. GPL-3.0. |
 | **[Medical ID Wallet](https://github.com/skapacraft/medical-id-wallet)** | Blood type, allergies, medications and emergency contacts on the watch, with a scannable QR or barcode. Fully offline, 20 languages. GPL-3.0. |
 
-Every one of them is open source, and every one ships the same source that the
-store binary is built from.
+Every project listed above is open source, and each ships the same source its
+store binary is built from. That is a fact about these repositories rather than
+a promise about everything SkapaCraft will ever publish: where a product is
+closed, or needs an account and a server to be worth installing, its page on
+[skapacraft.com](https://skapacraft.com) says so and says what it does with your
+data.
 
 ## Getting involved
 
