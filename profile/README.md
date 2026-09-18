@@ -1,7 +1,8 @@
 # SkapaCraft
 
-Native desktop applications, WordPress plugins and Garmin Connect IQ software,
-built on a philosophy of zero bloat and complete transparency.
+Native desktop applications, Garmin Connect IQ software, mobile apps and
+WordPress plugins, built on a philosophy of zero bloat and complete
+transparency.
 
 **SkapaCraft isn't a company. It's a standard**, applied to every tool, every
 plugin, every line of code that carries the name.
@@ -44,13 +45,6 @@ regardless of platform:
 |---|---|
 | **[Nostos](https://github.com/skapacraft/nostos)** | Brings a Google Takeout export home: writes photo dates and locations back into the images, merges split archives, deduplicates by content. Opens no network connections, and that constraint is enforced in CI. Tauri, Rust and React. GPL-3.0. |
 
-### WordPress plugins
-
-| Project | What it is |
-|---|---|
-| **[LivQ AccessFix](https://github.com/skapacraft/livq-accessfix)** | Server-side WCAG 2.2 AA and European Accessibility Act fixes, applied to the rendered HTML rather than patched into the DOM afterwards. GPL-2.0. |
-| **[Cetus Image Converter & AI Alt Text](https://github.com/skapacraft/cetus-media-optimizer)** | AVIF and WebP conversion for the whole media library, plus alt text generated through Gemini or OpenAI with your own key. Originals are never deleted. GPL-2.0. |
-
 ### Garmin Connect IQ
 
 | Project | What it is |
@@ -58,10 +52,26 @@ regardless of platform:
 | **[Ultra-Trail Dashboard](https://github.com/skapacraft/ultra-trail-dashboard)** | Data field for trail and ultra running: smoothed grade, Grade Adjusted Pace from the Minetti energy-cost model, and three physiological models that say how long you have left. GPL-3.0. |
 | **[Medical ID Wallet](https://github.com/skapacraft/medical-id-wallet)** | Blood type, allergies, medications and emergency contacts on the watch, with a scannable QR or barcode. Fully offline, 20 languages. GPL-3.0. |
 
-Every project listed above is open source, and each ships the same source its
-store binary is built from. That is a fact about these repositories rather than
-a promise about everything SkapaCraft will ever publish: where a product is
-closed, or needs an account and a server to be worth installing, its page on
+### Mobile
+
+**BandiInTasca** collects every open Italian public-sector job notice, from
+inPA and the Gazzetta Ufficiale, into one list with deadline reminders. No
+account: the phone gets a random identifier and the server knows nothing else
+about it. Closed source, iOS and Android: its
+[page on skapacraft.com](https://skapacraft.com/tools/mobile/bandiintasca/)
+says exactly what it does with your data instead.
+
+### WordPress plugins
+
+| Project | What it is |
+|---|---|
+| **[LivQ AccessFix](https://github.com/skapacraft/livq-accessfix)** | Server-side WCAG 2.2 AA and European Accessibility Act fixes, applied to the rendered HTML rather than patched into the DOM afterwards. GPL-2.0. |
+| **[Cetus Image Converter & AI Alt Text](https://github.com/skapacraft/cetus-media-optimizer)** | AVIF and WebP conversion for the whole media library, plus alt text generated through Gemini or OpenAI with your own key. Originals are never deleted. GPL-2.0. |
+
+Every project in a table above is open source, and each ships the same source
+its store binary is built from. That is a fact about these repositories rather
+than a promise about everything SkapaCraft will ever publish: where a product
+is closed, or needs an account and a server to be worth installing, its page on
 [skapacraft.com](https://skapacraft.com) says so and says what it does with your
 data.
 
